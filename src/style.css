@@ -3,3 +3,48 @@
 body{
     background: white;
 }
+/* Fondo base */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+.tapate-green  { background-color: #0b6623; }   /* miz sabz */
+.tapate-darkBlue{background-color: rgb(0, 0, 153);} /* miz abi*/
+.tapate-brown{background-color: rgb(46, 30, 30);} /*miz ghahvei*/
+.tapete-black{background-color: rgb(34, 34, 34);}
+/* Contenedor de cartas */
+#card-table {
+  min-height: 15rem;
+
+}
+
+/* Estilo de cada carta */
+.playing-card {
+  width: 7.5rem; 
+  height: 11.25rem;        
+  border-radius: 1.125rem;       
+  border: 0.125rem solid white; 
+  box-shadow: 0 0.5rem 1rem black; 
+}
+
+
+/* Esquinas (símbolos de ♥ ♦ ♠ ♣) */
+.card-corner {
+  font-size: 1.6rem;
+}
+
+/* Valor central (A, K, Q, etc.) */
+.card-value {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* Esquina inferior invertida */
+.card-corner-bottom {
+  transform: rotate(180deg);
+}
+
+/* Un poco de contraste para el subtítulo */
+.text-light-50 {
+  color: rgba(255, 255, 255, 0.7);
+}
